@@ -50,7 +50,7 @@
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item has-treeview">
-                        <router-link to="" class="nav-link">
+                        <router-link to="/home" class="nav-link">
                             <i class="nav-icon fa fa-dashboard"></i>
                             <p>
                                 Dashboard
@@ -59,16 +59,16 @@
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="" class="nav-link">
+                        <div class="nav-link">
                             <i class="nav-icon fa fa-th"></i>
                             <p>
                                 Category
 
                             </p>
-                        </router-link>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <router-link to=""  class="nav-link">
+                        <router-link to="/post" class="nav-link">
                             <i class="nav-icon fa fa-th"></i>
                             <p>
                                 Post
@@ -90,6 +90,7 @@
         <admin-main></admin-main>
     </div>
     <!-- /.content-wrapper -->
+
 
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
