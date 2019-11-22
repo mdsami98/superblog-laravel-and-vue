@@ -1,5 +1,6 @@
 import AdminHome from './components/admin/AdminHome.vue';
 import Ex from './components/ExampleComponent';
+import CategoryList from './components/admin/category/List';
 export const routes = [
     {
         path:'/home',
@@ -8,5 +9,9 @@ export const routes = [
     {
         path:'/post',
         component:Ex
+    },
+    {
+        path:'/category-list',
+        component:CategoryList
     },
 ]
